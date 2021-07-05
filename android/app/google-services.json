@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "301611985849",
+    "project_id": "archeun-archtodo",
+    "storage_bucket": "archeun-archtodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301611985849:android:905ef6ff629a9109fa2468",
+        "android_client_info": {
+          "package_name": "com.archtodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301611985849-do6upujl4s8nj0hohtjqjdbqkg8e2ren.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archtodo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "301611985849-pk5u1cla7mlffb8354hgkmraip3njrkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOxt2K_8zTKF48hVsa9R1A3jxcEPieqHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301611985849-pk5u1cla7mlffb8354hgkmraip3njrkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
