@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {FlatList, Text, View} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
-import {fetchTodos, selectAllTodos} from '../models/todos/todosSlice';
+import {fetchTodos, selectAllTodos} from '../../models/todos/todosSlice';
 
 const TodoList = () => {
 
