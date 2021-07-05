@@ -1,6 +1,7 @@
 {
   "name": "archtodo",
   "version": "0.0.1",
+  "license" : "MIT",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -24,7 +25,9 @@
     "eslint": "7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
-    "react-test-renderer": "17.0.1"
+    "react-test-renderer": "17.0.1",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
   },
   "jest": {
     "preset": "react-native"

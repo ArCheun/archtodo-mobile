@@ -1,9 +1,7 @@
-const axios = require('axios');
+import http from '../../utils/http';
 
 const fetchTodos = async (ids) => {
-  const todos = await axios.get(
-      'https://jsonplaceholder.typicode.com/todos',
-  );
+  const todos = await http.get('https://jsonplaceholder.typicode.com/todos');
   return todos.data;
 };
 
