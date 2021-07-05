@@ -1,11 +1,11 @@
 import 'react-native';
 import React from 'react';
-import store from '../store';
-import {fetchTodos, selectAllTodos} from '../todos/todosSlice';
-import http from '../../utils/__mocks__/http';
+import store from '../../../models/store';
+import {fetchTodos, selectAllTodos} from '../../../models/todos/todosSlice';
+import http from '../../../utils/__mocks__/http';
 
 const mockTodos = http.todos;
-jest.mock('../../utils/http');
+jest.mock('../../../utils/http');
 
 describe('store', () => {
 

@@ -1,10 +1,9 @@
 import 'react-native';
 import React from 'react';
-import server from '../api/server';
-import http from '../../utils/__mocks__/http';
+import server from '../../../services/api/server';
+jest.mock('../../../utils/http');
 
-
-jest.mock('../../utils/http');
+import http from '../../../utils/__mocks__/http';
 
 describe('server', () => {
   jest.useFakeTimers();
